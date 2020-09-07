@@ -1,0 +1,61 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+  
+/* Add a background color and some padding around the form */
+#create_post,#displayPost,#mod_post {
+    border-radius: 5px;
+    background-color: rgb(230, 242, 255,0.5);
+    padding: 20px;
+    margin-top: 50px;
+    width: 60%;
+    margin-right: 100px;
+    position: absolute;
+    left: 38%;
+} 
+
+.control-label :before {
+    content: "*";
+    color: red;
+}
+
+#modalTitle{
+    position: absolute;
+    left: 38%;
+}
+
+#recent_posts,#user_recent_posts{
+    position: absolute;
+    left: 40%;
+}
+
+#displayPost,#mod_post{
+    width: 80%;
+    left: 10%;
+}
+
+#post_title{
+    text-align: center;
+}
+
+#add_post{
+    left: 1160px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 55px;
+    padding-left: 12px;
+    color: #286090;
+}
+
+#pic{
+    max-width: 80%;
+    height: auto;
+}

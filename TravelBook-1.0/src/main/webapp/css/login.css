@@ -1,0 +1,31 @@
+#login_form{
+    
+  width: 100%;  
+}
+
+.panel-info{
+  background-color: rgb(230, 242, 255,0.5);
+}
+
+#buttons{
+  margin-left: 100px;
+  padding-top: 25px;
+}
+
+#log_status{
+  color: red;
+  text-align: center;
+  font-size: 15px;
+}
+
+#loginModal>.modal-content,#deleteModal>.modal-content,#editModal>.modal-content,#deletePostModal>.modal-content,#createModal>.modal-content{
+  position: fixed;
+  left: 25%;
+  top: 10%;
+  width: 50%;
+}
+h5{
+  color: red;
+  text-align: center;
+  font-size: 30px;
+}

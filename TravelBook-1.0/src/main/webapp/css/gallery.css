@@ -1,0 +1,34 @@
+/* body{
+	max-height: 100%;
+	margin-left: 500px;
+} */
+
+
+/*---------- gallery---------*/
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px 50px;
+	max-width: 1000px;
+	padding: 10px;
+	place-content: center;
+	border: 1px solid #ccc;
+	float: left;
+	width: 280px;
+}
+
+.gallery img {
+	background-color: #C0B283;
+	border: 1px solid #C0B283;
+	flex: 1 1 auto;
+	margin: 2px;
+	max-height: 150px;
+	padding: 2px;
+	width: min-content;
+	max-width: 100%;
+}
+
+.gallery img:hover {
+	box-shadow: 0 0 5px 3px #373737;
+	transform: scale(1.2);
+}

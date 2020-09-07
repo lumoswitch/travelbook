@@ -1,0 +1,60 @@
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #5E88BB;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+  
+.sidebar button {
+  display: block;
+  color: #B3CCEB;
+  padding: 16px;
+  text-decoration: none;
+  background-color: inherit;
+  border: none;
+  outline: none;
+}
+
+#defaultOpen{
+  margin-top: 50px;
+}
+  
+.sidebar button.active {
+  color: #2e425c;
+}
+
+.sidebar button:hover {
+  color: #3F5775;
+}
+
+ 
+div.tabcontent {
+  margin-left: 250px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+  
+#avatar {
+  border-radius: 50%;
+  width: 96%;
+  border: 5px solid #B3CCEB;
+  margin-top: 20px;
+  margin-left: 4px;
+}
+
+#title{
+  color: #B3CCEB;
+  font-size: 16px;
+  margin-left: 4px;
+  margin-top: 20px;
+}
+
+#usersTable{
+  background: white;
+  margin-bottom: 0px;
+}
+
+
